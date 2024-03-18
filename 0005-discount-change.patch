@@ -1,0 +1,25 @@
+From 4a14fc42734a3df30944c1cc10a6857cc4b9cc5c Mon Sep 17 00:00:00 2001
+From: Sangni YU <sangni.yu@student.tafesa.edu.au>
+Date: Mon, 18 Mar 2024 20:35:31 +1030
+Subject: [PATCH 5/5] discount change
+
+---
+ Ticketing/Ticketing/TicketPrice.cs | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/Ticketing/Ticketing/TicketPrice.cs b/Ticketing/Ticketing/TicketPrice.cs
+index b701581..4c2ab35 100644
+--- a/Ticketing/Ticketing/TicketPrice.cs
++++ b/Ticketing/Ticketing/TicketPrice.cs
+@@ -17,7 +17,7 @@ namespace Ticketing
+         const decimal mdecBalcony = 32.5m;
+         const decimal mdecGeneral = 28.75m;
+         const decimal mdecBox = 65.0m;
+-        const decimal mdecDiscount = 5.0m; 
++        const decimal mdecDiscount = 15.0m; 
+ 
+         private int Section
+         {
+-- 
+2.43.0.windows.1
+

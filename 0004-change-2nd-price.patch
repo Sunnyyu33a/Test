@@ -1,0 +1,25 @@
+From 8b3693931e7714d1258a5bc182179887f0c104f5 Mon Sep 17 00:00:00 2001
+From: Sangni YU <sangni.yu@student.tafesa.edu.au>
+Date: Mon, 18 Mar 2024 20:28:05 +1030
+Subject: [PATCH 4/5] change 2nd price
+
+---
+ Ticketing/Ticketing/TicketPrice.cs | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/Ticketing/Ticketing/TicketPrice.cs b/Ticketing/Ticketing/TicketPrice.cs
+index 667ccd2..b701581 100644
+--- a/Ticketing/Ticketing/TicketPrice.cs
++++ b/Ticketing/Ticketing/TicketPrice.cs
+@@ -14,7 +14,7 @@ namespace Ticketing
+         private decimal amountDue;
+         private decimal mPrice;
+ 
+-        const decimal mdecBalcony = 35.5m;
++        const decimal mdecBalcony = 32.5m;
+         const decimal mdecGeneral = 28.75m;
+         const decimal mdecBox = 65.0m;
+         const decimal mdecDiscount = 5.0m; 
+-- 
+2.43.0.windows.1
+
